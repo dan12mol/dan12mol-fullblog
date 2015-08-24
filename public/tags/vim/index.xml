@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on A Dev&#39;s Adventures through outer space</title>
-    <link>http://replace-this-with-your-hugo-site.com/tags/vim/</link>
+    <link>http://dan12mol.github.io/tags/vim/</link>
     <description>Recent content in Vim on A Dev&#39;s Adventures through outer space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 22 Aug 2015 09:02:35 +0300</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dan12mol.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vim Adventures (Part 1)</title>
-      <link>http://replace-this-with-your-hugo-site.com/vim-adventures-part-one/</link>
+      <link>http://dan12mol.github.io/vim-adventures-part-one/</link>
       <pubDate>Sat, 22 Aug 2015 09:02:35 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/vim-adventures-part-one/</guid>
+      <guid>http://dan12mol.github.io/vim-adventures-part-one/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;It’s been quite a while since my last post. I’ve left off writing for what seemed to be more important at the time. Projects, life events and other things have cluttered my schedule and I’ve left writing aside which looking back might have been a mistake. Laying down my thoughts on paper (desktop) is such a relaxing motion that I should take a note to self to do it more oftenly. I’ve decided I’d lay off the background story continuation for another time and start writing about some techie stuff.&lt;/p&gt;

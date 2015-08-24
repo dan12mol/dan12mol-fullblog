@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Dev&#39;s Adventures through outer space</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <link>http://dan12mol.github.io/</link>
     <description>Recent content on A Dev&#39;s Adventures through outer space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 22 Aug 2015 09:02:35 +0300</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dan12mol.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vim Adventures (Part 1)</title>
-      <link>http://replace-this-with-your-hugo-site.com/vim-adventures-part-one/</link>
+      <link>http://dan12mol.github.io/vim-adventures-part-one/</link>
       <pubDate>Sat, 22 Aug 2015 09:02:35 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/vim-adventures-part-one/</guid>
+      <guid>http://dan12mol.github.io/vim-adventures-part-one/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;It’s been quite a while since my last post. I’ve left off writing for what seemed to be more important at the time. Projects, life events and other things have cluttered my schedule and I’ve left writing aside which looking back might have been a mistake. Laying down my thoughts on paper (desktop) is such a relaxing motion that I should take a note to self to do it more oftenly. I’ve decided I’d lay off the background story continuation for another time and start writing about some techie stuff.&lt;/p&gt;
@@ -104,10 +104,10 @@ for it. The other one is &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&
     
     <item>
       <title>Uni and Career Boosting in a Nutshell</title>
-      <link>http://replace-this-with-your-hugo-site.com/uni-and-career-boosting-in-a-nutshell/</link>
+      <link>http://dan12mol.github.io/uni-and-career-boosting-in-a-nutshell/</link>
       <pubDate>Sun, 01 Mar 2015 16:10:41 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/uni-and-career-boosting-in-a-nutshell/</guid>
+      <guid>http://dan12mol.github.io/uni-and-career-boosting-in-a-nutshell/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;The last time I left you off with the slight impression that my dreams about university being the place where I&amp;rsquo;d get to write quality code and learn how to develop actual applications and boost my career start wasn&amp;rsquo;t really as expected. That is entirely correct. In fact, at the time of this writing I&amp;rsquo;m in my 8th, and final, semester of university and I still have the strong belief that we we&amp;rsquo;re taught a load of crap. But even though the introduction has mentioned most of it, I&amp;rsquo;ll go through the process of explaining it all more in-depth.&lt;/p&gt;
@@ -133,10 +133,10 @@ By the time I reached my third semester we had began studying OOP in Java, as we
     
     <item>
       <title>In The Beginning There Was Light</title>
-      <link>http://replace-this-with-your-hugo-site.com/in-the-beginning-there-was-light/</link>
+      <link>http://dan12mol.github.io/in-the-beginning-there-was-light/</link>
       <pubDate>Wed, 18 Feb 2015 16:10:41 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/in-the-beginning-there-was-light/</guid>
+      <guid>http://dan12mol.github.io/in-the-beginning-there-was-light/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;So you&amp;rsquo;ve stumbled upon this dark corner of the web. You&amp;rsquo;re looking for a job. Or maybe retirement ideas as a former dev. Or perhaps you&amp;rsquo;re looking to change your current status. Regardless of choice, I&amp;rsquo;m afraid I cannot lay your options on paper and make you choose any of those. The best thing I can do is relate my story to you and hope I will shed some light on the darker areas.&lt;/p&gt;
