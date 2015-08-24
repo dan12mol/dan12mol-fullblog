@@ -1,4 +1,4 @@
-baseurl = "http://dan12mol.github.io/"
+baseurl = "http://danmol.js.org/"
 languageCode = "en-us"
 title = "A Dev's Adventures through outer space"
 paginate = 5
@@ -13,7 +13,7 @@ theme = "casper"
 	bio = "Web Developer - Gamer"
 	authorlocation = "Cluj-Napoca, Romania"
 	authorwebsite = "http://dan12mol.github.io"
-	googleAnalyticsUserID = ""
+	googleAnalyticsUserID = "UA-66682860-1"
 	githubName = "dan12mol"
 	twitterName = "lenea92"
 	hideHUGOSupport = true
