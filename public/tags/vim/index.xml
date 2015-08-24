@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on A Dev&#39;s Adventures through outer space</title>
+    <link>http://replace-this-with-your-hugo-site.com/tags/vim/</link>
+    <description>Recent content in Vim on A Dev&#39;s Adventures through outer space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sat, 22 Aug 2015 09:02:35 +0300</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vim Adventures (Part 1)</title>
+      <link>http://replace-this-with-your-hugo-site.com/vim-adventures-part-one/</link>
+      <pubDate>Sat, 22 Aug 2015 09:02:35 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/vim-adventures-part-one/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;It’s been quite a while since my last post. I’ve left off writing for what seemed to be more important at the time. Projects, life events and other things have cluttered my schedule and I’ve left writing aside which looking back might have been a mistake. Laying down my thoughts on paper (desktop) is such a relaxing motion that I should take a note to self to do it more oftenly. I’ve decided I’d lay off the background story continuation for another time and start writing about some techie stuff.&lt;/p&gt;
+
+&lt;p&gt;Few years ago before I had learned what the power of a text editor can be I was mostly using IDEs, which now seems pointless since they’re mostly either cluttered with things that are unnecessary or slow. I’m not looking to trash any IDE user here but my personal preference has slowly led me towards text editors. First off there was &lt;strong&gt;Sublime Text&lt;/strong&gt; which seemed like a piece of heaven to me. It has so many features and plugins and so many ways to edit text and improved productivity that it just seemed to good to be true, and indeed I’m fairly certain that it’s the most used editor at least in the web dev community. About a year ago I stumbled upon &lt;strong&gt;Atom&lt;/strong&gt; which is Github’s open source text editor. A quick look and I decided Sublime Text is definitely worth dumping for this.&lt;/p&gt;
+
+&lt;p&gt;A few reasons why I chose Atom over Sublime Text:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Good looking Icon&lt;/li&gt;
+&lt;li&gt;Open-source&lt;/li&gt;
+&lt;li&gt;Built with Web technologies (HTML, CSS, JS)&lt;/li&gt;
+&lt;li&gt;Hackable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;Hackable&lt;/strong&gt; part I discovered only a few months in using Atom and it was such a delightful surprise for me. I even started writing plugins and helpers on my own such as toggle. All in all Atom was quite a blast and I’m still using it intensively and it is my #1 recommendation as a text editor. Besides, I was a huge Github fan to begin with.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/dojocat.jpg&#34; alt=&#34;Alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve heard awesome thing about &lt;strong&gt;Vim&lt;/strong&gt;. So I started running through the docs and &lt;strong&gt;vimtutor&lt;/strong&gt; I decided I’m in love with it. But the problem is it took me quite a long time to learn and quite a long time to actually be able to say that I have increased productivity using Vim rather than Atom.&lt;/p&gt;
+
+&lt;p&gt;Anywhoo, I’ll leave a basic .vimrc below with comments as to what everything does just as a started in case you we’re thinking of picking vim up. Scroll all the way down if you don’t care about explanations and just want to get the .vimrc and get down to business.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;First things first, create a .vimrc file in your home directory by running touch ~/.vimrc. The vimrc file is loaded when vim startup and has all sorts of possibly imaginable configuration in it. This is the heart and soul of you editor customisation. Next up, lets put some stuff in it. Just paste in the commands line by line if you want them enabled.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set history=200&lt;/code&gt;&lt;br&gt;
+ By default vim remembers the last 20 ex commands that you use (searches as well). This defaults that number up to 200.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set ruler&lt;/code&gt;&lt;br&gt;
+This enables a line/character helper at the bottom of the screen letting you see which line and character you are currently on.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set cursorline&lt;/code&gt;&lt;br&gt;
+This slightly highlight the current line as a visual helper.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;syntax on&lt;/code&gt;&lt;br&gt;
+Turns on syntax highlighting.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;filetype plugin indent on&lt;/code&gt;&lt;br&gt;
+Allows vim to auto-indent lines based on current filetype. Useful for web developers since we’re editing files with various extensions.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set tabstop=2&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;set softtabstop=2&lt;/code&gt;&lt;br&gt;
+Set tab length to 2 (replace number with 4 or whatever you like best).&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set expandtab&lt;/code&gt;&lt;br&gt;
+This converts tabs into soft tabs (spaces).&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set number&lt;/code&gt;&lt;br&gt;
+Displays all line numbers on the left-hand side of the editor.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set wildmenu&lt;/code&gt;&lt;br&gt;
+This enables navigating between different options when using tab auto-complete.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set lazyredraw&lt;/code&gt;&lt;br&gt;
+This enables buffering of screen updates instead of updating all the time, effectively increasing performance&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set showmatch&lt;/code&gt;&lt;br&gt;
+A must in a devs toolkit. Highlights matching paranthesis.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set incsearch&lt;/code&gt;&lt;br&gt;
+Enables incremental search. Highlight matching real-time when searching&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;set hlsearch&lt;/code&gt;&lt;br&gt;
+Will highlight all matching results of a search query.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;setnrformats=&lt;/code&gt;&lt;br&gt;
+Treats all numbers as decimal. This is to be able to effectively increment number with leading zeroes. Don’t use if you work with non-decimal numbers oftenly.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There’s one more thing I want to talk about before wrapping things up, which are package managers. A big part of customizing vim are the plugins which you can find online. Having a package manager that manages all your plugins and injects them into vim can be of great help. There’s a bunch of package managers out there, I personally went with &lt;strong&gt;Pathogen&lt;/strong&gt; because it’s the first one I found and it’s great, there’s really no other reason.&lt;/p&gt;
+
+&lt;p&gt;Go over to &lt;a href=&#34;https://github.com/tpope/vim-pathogen&#34;&gt;pathogen.vim&lt;/a&gt;, follow the instructions to install this great plugin and you’re ready to go. This will also add &lt;code&gt;execute pathogen#infect()&lt;/code&gt; to your vimrc. There’s only 2 plugins which required extra vimrc changes and those are &lt;a href=&#34;http://ethanschoonover.com/solarized&#34;&gt;Solarized&lt;/a&gt;, which is the colorscheme I use and I added&lt;br&gt;
+&lt;code&gt;let g:solarized_termtrans = 1&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;set background=light&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;colorscheme solarized&lt;/code&gt;&lt;br&gt;
+for it. The other one is &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;CtrlP&lt;/a&gt; which is a fuzzy finder plugin (kindof like Cmd+P in Sublime, Atom) and it’s great but indexes files a bit slowly so I coupled it with &lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34;&gt;Ag&lt;/a&gt; to make it lightning fast, effectively adding another line to my vimrc.&lt;br&gt;
+&lt;code&gt;let g:ctrlp_user_command = &#39;ag %s -l --nocolor -g &amp;quot;&amp;quot;&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s basically it for my .vimrc file. Stay tuned for &lt;strong&gt;Vim adventures (Part 2)&lt;/strong&gt; where I’ll be going over some basic vim commands and how to do various tasks in vim to ease your workflow.
+’Til next time!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

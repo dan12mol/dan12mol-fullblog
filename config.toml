@@ -1,0 +1,22 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "A Dev's Adventures through outer space"
+paginate = 5
+DisqusShortname = "dan12mol"
+Copyright = "All rights reserved - 2015"
+theme = "casper"
+
+[params]
+	author = "Dan Moldovan"
+	description = "A blog where ranting is a day-by-day thing"
+	cover = "images/background.jpg"
+	bio = "Web Developer - Gamer"
+	authorlocation = "Cluj-Napoca, Romania"
+	authorwebsite = ""
+	googleAnalyticsUserID = ""
+	githubName = "dan12mol"
+	twitterName = "lenea92"
+	hideHUGOSupport = true
+	
+[permalinks]
+  post = "/:slug/"
