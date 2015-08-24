@@ -24,3 +24,9 @@ But first, my previous article presented a few plugins that I use such as [CtrlP
 3. [NERDTree](https://github.com/scrooloose/nerdtree). I find myself using this more and more seldom but it's still a great choice of a plugin especially when you're starting out with vim. It basically adds a sidebar to vim which is a fully-featured tree explorer.
 
 That's about it as far as plugins are concerned, there's plenty more plugins out there which you can check out and improve your vim experience, I personally recommend [VimAwesome](http://vimawesome.com/) as a plugin explorer.
+
+Onwards, minion!
+
+---
+
+Now the fun part begins. So you've decided to check out the power of vim and use it for yourself. First of all let me make things clear for you. Vim takes time. When you first load it up you won't be able to do sh*t properly in it. Reading the few tips&tricks I've got for you in the following section will start to make things work, but it still won't be fast. At best, a week or two into using vim you'll be 
